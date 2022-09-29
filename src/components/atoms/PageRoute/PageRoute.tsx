@@ -9,7 +9,7 @@ export const PageRoute = ({ page, sx = {} }: IPage) => {
     const router = useRouter();
     const { theme } = useThemeContext();
 
-    const memoColor = useMemo(() => theme.mode ? "#fff" : "#000", [theme.mode])
+    const memoColor = useMemo(() => theme.mode === 'dark' ? "#fff" : "#000", [theme.mode])
 
 
     return (

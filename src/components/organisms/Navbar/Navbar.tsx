@@ -11,8 +11,8 @@ export const Navbar = () => {
     return (
         <AppBar position="sticky" 
             sx={{ 
-                background: theme.mode ? '#222' : '#fff', 
-                color:  theme.mode ? '#fff' : '#343a40'
+                background: theme.mode === 'dark' ? '#222' : '#fff', 
+                color:  theme.mode === 'dark'  ? '#fff' : '#343a40'
             }}>
             <Container maxWidth="lg">
                 <Menu pages={pages} menu={menu} setMenu={setMenu} />

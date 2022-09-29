@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export interface IMode {
-	mode: boolean;
+	mode: string;
 }
 
 export interface IModeProvider {

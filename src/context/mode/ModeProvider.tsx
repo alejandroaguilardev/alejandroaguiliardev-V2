@@ -4,13 +4,13 @@ import { ModeContext } from "./ModeContext";
 import { ModeReducer } from "./ModeReducer"
 
 const INIT = {
-    mode: false
+    mode: 'light'
 }
 
 export const ModeProvider = ({ children }: IModeProvider) => {
     const [theme, dispatch] = useReducer(ModeReducer, INIT);
 
-    const handleTheme = (mode: boolean) => {
+    const handleTheme = (mode: string) => {
         dispatch({
             type: 'changeMode',
             payload: { mode }

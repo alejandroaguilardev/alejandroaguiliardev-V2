@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 const INIT = {
-	theme: { mode: false },
+	theme: { mode: 'light' },
 	handleTheme: () => { false }
 };
 

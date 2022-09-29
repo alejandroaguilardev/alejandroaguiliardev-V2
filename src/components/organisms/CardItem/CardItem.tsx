@@ -19,7 +19,7 @@ export const CardItem = ({
             sx={{
                 alignItems: "center",
                 backgroundColor: 'background.paper',
-                boxShadow: theme.mode ? '' : '1px 1px 30px #ddd',
+                boxShadow: theme.mode === 'dark' ? '' : '1px 1px 30px #ddd',
                 cursor: 'pointer',
                 display: 'flex',
                 flexDirection: 'column',

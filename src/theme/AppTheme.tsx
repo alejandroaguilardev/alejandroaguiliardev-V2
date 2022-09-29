@@ -6,10 +6,10 @@ import { blueTheme } from "./blueTheme";
 import { darkTheme } from "./darkTheme";
 
 export const AppTheme = ({ children }: IAppTheme) => {
-    const {theme} = useThemeContext();
-    
+    const { theme } = useThemeContext();
+
     return (
-        <ThemeProvider theme={theme.mode ? darkTheme: blueTheme}>
+        <ThemeProvider theme={theme.mode === 'dark' ? darkTheme : blueTheme}>
             <CssBaseline />
             {children}
         </ThemeProvider>

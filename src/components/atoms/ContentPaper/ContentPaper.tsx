@@ -8,7 +8,7 @@ export const ContentPaper = ({ children }: IContentPaper) => {
     <Container maxWidth="lg">
       <Grid sx={{
         backgroundColor: 'background.paper',
-        boxShadow: theme.mode ? '1px 1px 30px #263240' : '1px 1px 30px #ddd',
+        boxShadow: theme.mode === 'dark' ? '1px 1px 30px #263240' : '1px 1px 30px #ddd',
       }}
         px={10} py={10}
       >
