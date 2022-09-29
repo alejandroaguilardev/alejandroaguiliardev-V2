@@ -1,10 +1,11 @@
-import { Typography } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import { ITitleSection } from "./ITitleSection"
 
-export const TitleSection = ({ title, description }: ITitleSection) => {
+export const TitleSection = ({ align = 'center', title, description, descriptionTitle = [] }: ITitleSection) => {
     return (
-        <>
-            <Typography
+        <Box mb={4}>
+            <Typography 
+                mb={1}
                 variant="h2"
                 align='center'
                 sx={{
@@ -13,7 +14,21 @@ export const TitleSection = ({ title, description }: ITitleSection) => {
                 }}>
                 {title}
             </Typography>
-            <Typography align='center'>  {description}  </Typography>
-        </>
+            {
+                description.map((text, index) => (
+                    <Typography
+                        align={align}
+                        key={text}
+                        mb={2}
+                        sx={{
+                            fontWeight: !!descriptionTitle[index] ? "bold" : "normal"
+                        }}
+
+                    >
+                        {text}
+                    </Typography>
+                ))
+            }
+        </Box>
     )
 }

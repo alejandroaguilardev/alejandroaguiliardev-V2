@@ -5,7 +5,7 @@ export const Copyright = () => {
         <Grid py={4} sx={{ borderTopWidth: '.1rem', borderTopColor: 'primary.main', borderTopStyle: 'solid' }}>
             <Container maxWidth='lg'>
                 <Typography color='primary.contrastText' fontSize={12}>
-                    © 2020 - 2022 All rights reserved  | Alejandro Aguilar Systems Engineer | Software Developer
+                    © 2020 - {new Date().getFullYear()} All rights reserved  | Alejandro Aguilar Systems Engineer | Software Developer
                 </Typography>
             </Container>
         </Grid>

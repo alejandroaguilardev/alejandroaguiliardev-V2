@@ -1,12 +1,10 @@
 import { createTheme } from "@mui/material";
-import { red } from "@mui/material/colors";
 
 export const blueTheme = createTheme({
 	palette: {
-		// mode:'dark'
 		primary: {
 			main: "#0052B4",
-			light: "#fff",
+			light: "#424242",
 			dark: "#09162e",
 			contrastText: "#fff",
 		},
@@ -16,15 +14,11 @@ export const blueTheme = createTheme({
 		},
 		background: {
 			default: "#fbfcfc",
-			paper:'#fff'
+			paper: "#fff",
 		},
 		text: {
 			primary: "#222",
 			secondary: "#444",
-			//   disabled: string;
-		},
-		error: {
-			main: red.A400,
 		},
 	},
 });

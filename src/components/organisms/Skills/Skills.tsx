@@ -1,17 +1,17 @@
 import { Grid, Container } from "@mui/material"
 import { TitleSection } from "../../atoms"
-import { CardItem } from "../../molecules"
-import { dataSkills } from "./dataSkills"
+import { CardItem } from "../CardItem/CardItem"
+import { ISkills } from "./ISkills"
 
-export const Skills = () => {
+export const Skills = ({ title, description, dataSkills }: ISkills) => {
     return (
-        <Container maxWidth="lg" sx={{ mb: 4 }}>
+        <Container maxWidth="lg" >
             <TitleSection
-                title="Technical Skills"
-                description="Programming languages, framework and technologies with better performance."
+                title={title}
+                description={[description]}
             />
 
-            <Grid container spacing={5} mt={2} mb={4}>
+            <Grid container spacing={5} >
                 {dataSkills.map((data) => (
                     <Grid item xs={6} md={3} key={data.title}>
                         <CardItem

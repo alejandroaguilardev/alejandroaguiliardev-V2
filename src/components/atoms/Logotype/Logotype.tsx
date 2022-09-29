@@ -12,7 +12,7 @@ export const Logotype = ({ ligth = false }: ILogotype) => {
                         src={`${ligth ? '/img/alejandro-aguilar-dev-white.svg' : '/img/alejandro-aguilar-dev.svg'}`}
                         width={50}
                         height={50}
-                        alt='logo Alejandro Aguilar'
+                        alt='Logo Alejandro Aguilar'
 
                     />
                     <Typography

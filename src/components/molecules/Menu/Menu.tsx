@@ -1,15 +1,19 @@
 import { Toolbar, Box, IconButton } from "@mui/material"
-import MenuIcon from '@mui/icons-material/Menu';
-import { Curriculum, Logotype, PageRoute } from "../../atoms"
+import { Menu as MenuIcon } from '@mui/icons-material';
+import { Curriculum, Logotype, Mode, PageRoute } from "../../atoms"
 import { IMenu } from "./IMenu";
 
 export const Menu = ({ pages, menu, setMenu }: IMenu) => {
+
     return (
         <Toolbar
             disableGutters
             sx={{ display: 'flex', justifyContent: 'space-between', mt: { xs: 1, sm: 0.5 }, mb: { xs: 0.5, sm: 0 } }}
         >
-            <Logotype />
+            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                <Logotype />
+                <Mode />
+            </Box>
             <Box sx={{
                 display: { xs: 'none', sm: 'flex' },
                 alignItems: 'center',
@@ -20,7 +24,6 @@ export const Menu = ({ pages, menu, setMenu }: IMenu) => {
                 ))}
                 <Curriculum sx={{ pl: 8, pr: 8 }} />
             </Box>
-
             <Box sx={{
                 display: { xs: 'block', sm: 'none' },
 
@@ -29,6 +32,6 @@ export const Menu = ({ pages, menu, setMenu }: IMenu) => {
                     <MenuIcon />
                 </IconButton>
             </Box>
-        </Toolbar>
+        </Toolbar >
     )
 }

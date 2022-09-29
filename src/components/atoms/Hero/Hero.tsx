@@ -1,6 +1,7 @@
-import Image from "next/image";
 import { Grid, Typography, Box } from "@mui/material"
 import { titleData } from "./data";
+import { LottieOptions } from "../";
+import heroJson from '../../../../public/json/hero.json';
 
 export const Hero = () => {
   return (
@@ -25,19 +26,14 @@ export const Hero = () => {
                 color: data.color,
                 fontSize: data.fontSize,
                 fontWeight: data.fontWeight,
-                marginBottom:data.marginBottom
+                marginBottom: data.marginBottom
               }}>
               {data.title}
             </Typography>
           ))
         }
       </Box>
-      <Image
-        src='/img/alejandro-aguilar-recurse.svg'
-        height={350}
-        width={350}
-        priority
-      />
+      <LottieOptions data={heroJson} />
     </Grid>
   );
 }

@@ -5,10 +5,7 @@ import { dataBriefcase, dataInformation } from "./dataFooter";
 
 export const Footer = () => {
     return (
-        <Grid sx={{
-            backgroundColor: 'primary.dark',
-            mt: 20,
-        }}>
+        <Grid sx={{ backgroundColor: 'primary.dark' }}>
             <Container maxWidth='lg'>
                 <Grid container spacing={10} pt={3} pb={5}>
                     <Grid item md={6} >
@@ -16,7 +13,7 @@ export const Footer = () => {
                         <Typography color='primary.contrastText' p={3} fontSize={14}>
                             Systems Engineer and software developer, passionate about technology and open to learning new technologies.
                         </Typography>
-                        <List  dense sx={{ display:'flex', gap: '1.5rem' }}>
+                        <List dense sx={{ display: 'flex', gap: '1.5rem' }}>
                             <SocialNetworks fab={true} />
                         </List>
                     </Grid>
