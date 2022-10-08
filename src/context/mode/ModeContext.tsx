@@ -1,8 +1,4 @@
 import { createContext } from "react";
+import { IInit } from "./IMode";
 
-const INIT = {
-	theme: { mode: 'light' },
-	handleTheme: () => { false }
-};
-
-export const ModeContext = createContext<any>(INIT);
+export const ModeContext = createContext({} as IInit);

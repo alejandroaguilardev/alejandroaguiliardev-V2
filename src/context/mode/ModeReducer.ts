@@ -1,6 +1,6 @@
 import { IMode } from "./IMode";
 
-type TAction = { type: "changeMode"; payload: IMode };
+export type TAction = { type: "changeMode"; payload: IMode };
 
 export const ModeReducer = (state: IMode, action: TAction) => {
 	switch (action.type) {

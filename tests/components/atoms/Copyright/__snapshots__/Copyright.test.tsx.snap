@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Copyright test snapshots 1`] = `
+<div>
+  <div
+    class="MuiGrid-root css-815iv4-MuiGrid-root"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-h3yix-MuiTypography-root"
+      >
+        © 2020 - 
+        2022
+         All rights reserved  | Alejandro Aguilar Systems Engineer | Software Developer
+      </p>
+    </div>
+  </div>
+</div>
+`;

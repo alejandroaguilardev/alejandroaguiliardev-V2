@@ -9,10 +9,11 @@ export const Mode = () => {
 
     useEffect(() => {
         handleTheme(localStorage.getItem('mode') ?? 'light');
-    }, [])
+    }, [handleTheme])
 
     return (
         <IconButton
+            aria-label="icon-mode"
             onClick={() => {
                 handleTheme(theme.mode === 'dark' ? 'light' : 'dark');
                 localStorage.setItem('mode', theme.mode === 'dark' ? 'light' : 'dark')

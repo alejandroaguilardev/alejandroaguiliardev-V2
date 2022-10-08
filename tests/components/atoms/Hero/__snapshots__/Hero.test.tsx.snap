@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero Test Hero snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-cu00av-MuiGrid-root"
+  >
+    <div
+      class="MuiBox-root css-0"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1jxxhvi-MuiTypography-root"
+      >
+        Hello World
+      </h6>
+      <h1
+        class="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter css-1d2at2s-MuiTypography-root"
+      >
+         Hello, I am Alejandro Aguilar
+      </h1>
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1dhpaeb-MuiTypography-root"
+      >
+         Engineer System - Software Developer
+      </h6>
+    </div>
+    <h1>
+      Lottie
+    </h1>
+  </div>
+</div>
+`;

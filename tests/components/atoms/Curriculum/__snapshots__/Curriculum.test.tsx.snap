@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Curriculum Test SnapShot 1`] = `
+<div>
+  <a
+    href="https://drive.google.com/file/d/13xkWuHrDCPpXNNkmPCKqC0BOH6n9nxmo/view?usp=sharing"
+    rel="”noopener noreferrer"
+    target="_blank"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+      tabindex="0"
+      type="button"
+    >
+      Get CV
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </a>
+</div>
+`;

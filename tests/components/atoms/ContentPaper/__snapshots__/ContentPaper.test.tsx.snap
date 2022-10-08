@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPaper Test Snapshots 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root css-hwjy3t-MuiGrid-root"
+    >
+      <h1>
+        ContentPaper
+      </h1>
+    </div>
+  </div>
+</div>
+`;

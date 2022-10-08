@@ -1,5 +1,5 @@
 export interface IAppLayout {
-    children: React.ReactNode;
+    children:  React.ReactElement | React.ReactElement[] | React.ReactNode;
     title: string;
     description: string;
     page:string;

@@ -1,3 +1,3 @@
 export interface IAppTheme {
-    children: React.ReactNode;
+    children:  React.ReactElement | React.ReactElement[] | React.ReactNode;
 }

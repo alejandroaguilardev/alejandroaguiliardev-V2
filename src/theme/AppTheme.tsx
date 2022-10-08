@@ -4,14 +4,20 @@ import { IAppTheme } from "./IAppTheme";
 import { useThemeContext } from "../context";
 import { blueTheme } from "./blueTheme";
 import { darkTheme } from "./darkTheme";
+import { useMemo } from "react";
 
 export const AppTheme = ({ children }: IAppTheme) => {
-    const { theme } = useThemeContext();
+	const { theme } = useThemeContext();
 
-    return (
-        <ThemeProvider theme={theme.mode === 'dark' ? darkTheme : blueTheme}>
-            <CssBaseline />
-            {children}
-        </ThemeProvider>
-    );
+	const themeSelected = useMemo(
+		() => (theme.mode === "dark" ? darkTheme : blueTheme),
+		[theme]
+	);
+
+	return (
+		<ThemeProvider theme={themeSelected}>
+			<CssBaseline />
+			{children}
+		</ThemeProvider>
+	);
 };
