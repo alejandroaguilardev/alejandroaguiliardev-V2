@@ -8,7 +8,7 @@ export const dateProjects = [
 	{
 		title: "BRIEFCASE V2",
 		type: "front",
-		subtitle: "Nextjs, Typescript, Material Ui",
+		subtitle: "Nextjs, Typescript, Material Ui, atom design, Jest Test",
 		description: "My Portfolio Version 2 (Version 1 was made in Laravel",
 		icon: "/img/projects/briefcasev2.jpg",
 		date: "2022",

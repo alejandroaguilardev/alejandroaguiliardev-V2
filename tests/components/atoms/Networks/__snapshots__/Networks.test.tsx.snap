@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Networks Test toMatchSnapshot 1`] = `
+<div>
+  <button
+    aria-label="title Test"
+    class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-primary MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-primary css-1dm1o0z-MuiButtonBase-root-MuiFab-root"
+    tabindex="0"
+    type="button"
+  >
+    Networks
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

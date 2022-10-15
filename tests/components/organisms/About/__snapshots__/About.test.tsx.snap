@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Test toMacthSnapShot 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root css-hwjy3t-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-am41oj-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1yjvs5a"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter css-162zxzj-MuiTypography-root"
+              role="title"
+            >
+              About me
+            </h2>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-alignJustify css-blwhew-MuiTypography-root"
+              role="description"
+            >
+              I am passionate about technology, I consider myself a responsible and transparent person always willing to collaborate and support, values ​​that I have learned and appreciated in my previous experiences.
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-alignJustify css-blwhew-MuiTypography-root"
+              role="description"
+            >
+              I have worked mainly as a web developer in various technologies,I have had experience in Front end and Back end, I also had the opportunity to work in blockchain developing smart contract.
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-alignJustify css-blwhew-MuiTypography-root"
+              role="description"
+            >
+              Also, I love to investigate and learn, because any new knowledge is welcome.
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-4 css-1ube6tp-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-42igfv"
+          >
+            <div
+              class="MuiBox-root css-626xnk"
+            >
+              <h1>
+                Lottie
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

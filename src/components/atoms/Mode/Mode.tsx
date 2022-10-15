@@ -1,15 +1,11 @@
 import { IconButton } from "@mui/material"
 import { ToggleOn, ToggleOff, LightMode, DarkMode } from '@mui/icons-material';
-import { useThemeContext } from "../../../context";
-import { useEffect } from "react";
+import { useContext } from 'react';
+import { ModeContext } from '../../../context/mode/ModeContext';
 
 
 export const Mode = () => {
-    const { theme, handleTheme } = useThemeContext();
-
-    useEffect(() => {
-        handleTheme(localStorage.getItem('mode') ?? 'light');
-    }, [handleTheme])
+    const { theme, handleTheme } = useContext(ModeContext);
 
     return (
         <IconButton

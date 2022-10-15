@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overlay Test toMacthSnapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-lzhgz5"
+  >
+    <h1>
+      Overlay
+    </h1>
+  </div>
+</div>
+`;

@@ -1,5 +1,5 @@
-import { Modal, Box } from "@mui/material"
 import Image from "next/image";
+import { Modal, Box } from "@mui/material"
 import { IImageModal } from "./IImageModal";
 
 

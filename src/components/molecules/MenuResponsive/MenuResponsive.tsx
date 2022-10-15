@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { Grid, Collapse } from "@mui/material"
 import { Curriculum, PageRoute } from "../../atoms"
 import { IMenuResponsive } from "./IMenuResponsive"

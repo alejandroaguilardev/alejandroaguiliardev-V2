@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Route Test toMacthSnapshot 1`] = `
+<div>
+  <a
+    href="/page%20test"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-4peds9-MuiTypography-root"
+    >
+      Page Test
+    </p>
+  </a>
+</div>
+`;

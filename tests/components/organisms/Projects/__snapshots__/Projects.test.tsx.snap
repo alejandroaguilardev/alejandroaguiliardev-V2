@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project Test toMatchSnapshot 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-1yjvs5a"
+    >
+      <h2
+        class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter css-162zxzj-MuiTypography-root"
+        role="title"
+      >
+        Project
+      </h2>
+      <p
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1mqboxc-MuiTypography-root"
+        role="description"
+      >
+        description Project
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 css-1ld3b9g-MuiGrid-root"
+    />
+  </div>
+</div>
+`;

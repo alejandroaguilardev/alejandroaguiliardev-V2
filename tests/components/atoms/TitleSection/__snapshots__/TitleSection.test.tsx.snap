@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleSection toMacthSnapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1yjvs5a"
+  >
+    <h2
+      class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter css-162zxzj-MuiTypography-root"
+      role="title"
+    >
+      title
+    </h2>
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1mqboxc-MuiTypography-root"
+      role="description"
+    >
+      description 1 
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1mqboxc-MuiTypography-root"
+      role="description"
+    >
+      Description 2
+    </p>
+  </div>
+</div>
+`;

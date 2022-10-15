@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section toMacthSnapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-oomdnv"
+  >
+    <h1>
+      Section
+    </h1>
+  </div>
+</div>
+`;

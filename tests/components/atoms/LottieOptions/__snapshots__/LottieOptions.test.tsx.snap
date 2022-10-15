@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LottieOptions toMacthSnapShot 1`] = `
+<div>
+  <h1>
+    Lottie
+  </h1>
+</div>
+`;
