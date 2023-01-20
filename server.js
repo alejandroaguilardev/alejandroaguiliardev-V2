@@ -1,29 +1,23 @@
-// const express = require("express");
-// const app = express();
-// const cors = require('cors');
-// require("dotenv").config();
+const { createServer } = require('http')
+const { join } = require('path')
+const { parse } = require('url')
+const next = require('next')
 
-// const { dbConnection } = require("./database/config");
+const app = next({ dev: process.env.NODE_ENV !== 'production' })
+const handle = app.getRequestHandler()
 
-// //DB
-// dbConnection();
+app.prepare().then(() => {
+  createServer((req, res) => {
+    const parsedUrl = parse(req.url, true)
+    const { pathname } = parsedUrl
 
-// app.use(cors());
-
-// //parse Body Json
-// app.use(express.json());
-
-
-// //Routes
-// app.use('/api/auth', require('./routes/auth'));
-// app.use('/api/country', require('./routes/country'));
-
-// //data
-// app.use('/api/adopters', require('./routes/adopters'));
-// app.use('/api/pets', require('./routes/pets'));
-
-// app.listen(process.env.PORT, () => {
-//     console.log('Servidor corriendo'+ process.env.PORT);
-// });
-    
-console.log(1)
+    if (pathname === '/sw.js' || /^\/(workbox|worker|fallback)-\w+\.js$/.test(pathname)) {
+      const filePath = join(__dirname, '.next', pathname)
+      app.serveStatic(req, res, filePath)
+    } else {
+      handle(req, res, parsedUrl)
+    }
+  }).listen(3000, () => {
+    console.log(`> Ready on http://localhost:${3000}`)
+  })
+})
