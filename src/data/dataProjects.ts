@@ -63,7 +63,7 @@ export const dateProjects = [
 		icon: "/img/projects/camiyvaleindustrial.jpg",
 		subtitle: "Laravel, Blade, adminlte",
 		date: "2021",
-		link: "",
+		link: "https://camiyvaleindustrial.com/",
 		repository: "https://github.com/alejandroaguilardev/camiyvale",
 		priority: 2,
 	},
